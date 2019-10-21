@@ -1,0 +1,16 @@
+#box{
+    width: 0%;
+    position: fixed;
+    right: 0;
+    top: 0%;
+    bottom: 0%;
+    background: chocolate;
+    transition: .3s;
+}
+#btn{
+    position: relative;
+    z-index: 10;
+}
+#box.active{
+    width: 100%;
+}
